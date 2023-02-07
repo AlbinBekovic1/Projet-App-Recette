@@ -1,0 +1,21 @@
+$background: cyan;
+$flex: flex;
+$center: center;
+$none: none;
+$size: 20px;
+$gap: 20px;
+
+.nav {
+  display: $flex;
+  justify-content: $center;
+  align-items: $center;
+  text-decoration: $none;
+  font-size: $size;
+  gap: $gap;
+}
+
+.head {
+  display: $flex;
+  justify-content: $center;
+  align-items: $center;
+}
